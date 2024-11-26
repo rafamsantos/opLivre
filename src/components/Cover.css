@@ -1,0 +1,27 @@
+.cover {
+    position: relative;
+    background-image: url('../images/ai-image.png');
+    background-size: cover;
+    background-position: center;
+    height: 93.45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .cover-content {
+    text-align: center;
+  }
+  
+  .cover-content h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  .cover-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  

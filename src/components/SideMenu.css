@@ -1,0 +1,74 @@
+.side-menu {
+    margin-top: 70px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    transition: left 0.3s ease;
+    padding-top: 60px;
+    z-index: 0;
+    overflow: auto;
+  }
+  
+  .side-menu.visible {
+    left: 0;
+  }
+  
+  .side-menu-header {
+    padding: 20px;
+    background-color: #444;
+    text-align: center;
+    border-bottom: 2px solid #555;
+  }
+  
+  .side-menu-header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-menu ul li {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    text-align: left;
+  }
+  
+  .side-menu ul li:hover {
+    background-color: #575757;
+  }
+  
+  /* SideMenu.css */
+  .dropdown {
+      position: relative;
+    }
+  
+  .dropdown-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Example CSS for dropdown */
+  .dropdown-menu {
+    position: absolute;
+    list-style: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none; /* Initially hidden */
+  }
+  
+  .side-menu .dropdown-menu {
+    display: block; /* Show dropdown when active */
+  }
+  

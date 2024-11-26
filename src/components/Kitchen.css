@@ -1,0 +1,122 @@
+.kitchen {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+    transition: left 0.3s ease;
+  }
+  
+  .menu-toggle.open {
+    left: 270px; /* Adjust position when the menu is visible */
+  }
+  
+  .kitchen-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .kitchen-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .kitchen-content li {
+    cursor: pointer;
+    margin: 10px 0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .kitchen-content li:hover {
+    color: #000000;
+  }
+  
+  .recipe-name {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .recipe-details {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-details p {
+    margin: 0;
+  }
+  
+  .search-bar {
+    width: 80%;
+    padding: 8px;
+    margin: 20px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .filter-container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;     /* Centers the content vertically */
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .search-bar, .type-filter {
+    padding: 5px;
+    font-size: 16px;
+    height: 40px; /* Set a specific height for both the input and dropdown */
+    line-height: 30px; /* Ensures the text is vertically centered */
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; /* Fixed width */
+    transition: width 0.3s ease; /* Smooth transition for width changes */
+  }
+
+  .type-filter {
+    margin-top: 0px;
+    height: 40px;
+    width: 150px; /* Adjust width as needed */
+  }
+/* Style for the tip titles */
+.tip-title {
+    font-weight: bold; /* Make the title bold */
+    font-size: 18px; /* Adjust the font size as needed */
+    cursor: pointer; /* Indicate it's clickable */
+    padding: 5px 0; /* Add some padding for better spacing */
+    display: block; /* Ensure it behaves as a block element */
+    margin-bottom: 10px; /* Add space between titles */
+  }
+  
+  /* Optional: Add hover effect for tip title */
+  .tip-title:hover {
+    color: #000000; /* Change color on hover */
+    text-decoration: underline; /* Underline the title on hover */
+  }
+  
+  
+  
+  
